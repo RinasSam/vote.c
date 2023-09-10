@@ -1,6 +1,8 @@
 # vote.c
 A simple C program for multiple stage voting sessions. I wrote this program to unrust myself at C, so it may have some questionable code designs.  
 
+## Usage
+Add entries in the file \`options.txt', then run the program. Use the \`help' command anytime to get help.
 
 ## License    
     Copyright (C) 2023  RinasSam
