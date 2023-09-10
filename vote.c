@@ -362,7 +362,7 @@ postvote_mode()
 				exit(-2);
 			}
 			
-			fprintf(fsave, "\n%-50s %-3s", "Options:", "Votes:\n");
+			fprintf(fsave, "%-50s %-3s", "Options:", "Votes:\n");
 			
 			for(int k = 0; k < count; k++) {
 				fprintf(fsave, "%-50s %-3d\n", options[k], votes[k]);
